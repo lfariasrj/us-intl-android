@@ -5,17 +5,23 @@ This layout differs from the "English (US), International style" layout that com
 
 ## Building
 
-This package requires the [Android SDK](https://developer.android.com/studio).
-The environment variable `ANDROID_SDK_ROOT` should be set to the location of your SDK installation.
+Quem tiver com problema na acentuação de teclado com layout americano, eu fiz o fork do projeto https://github.com/dashea/us-intl-android e atualizei.
 
-To build the package, simply run:
+A atualização ficou assim depois que eu mudei:
 
-`./gradlew build`
+' + a = á ou alt (direita ou esquerda) + a = á
+' + e = é ou alt (direita ou esquerda) + e = é
+' + i = í ou alt (direita ou esquerda) + i = í
+' + o = ó ou alt (direita ou esquerda) + o = ó
+' + u = ú ou alt (direita ou esquerda) + a = ú
+alt (direita ou esquerda) + , = ç
 
-or on Windows,
+tem outros atalhos funcionando também como alt + 2 = ²
+A listagem completa pode ver aqui...
+https://github.com/lfariasrj/us-intl-android/blob/master/us-intl/src/main/res/raw/us_intl_deadkeys.kcm
 
-`gradlew build`
+Link para download: https://github.com/lfariasrj/us-intl-android/raw/master/us-intl/release/us-intl-release.apk
 
-## Bugs
+Pode ser que o playprotect alerte que o apk não é verificado pois a instalação é feita de fora da playstore, essa mensagem eu ainda não sei remover...
 
-Report any problems in the [github issue tracker](https://github.com/dashea/us-intl-android/issues) or by emailing reallylongword@gmail.com
+  
